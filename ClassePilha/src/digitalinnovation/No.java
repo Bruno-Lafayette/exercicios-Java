@@ -12,9 +12,13 @@ public class No {
             "}";
     }
 
+    public No(){
 
+    }
   
-
+    public No(int dado){
+        this.dado = dado;
+    }
 
     public int getDado() {
         return this.dado;
@@ -31,15 +35,5 @@ public class No {
     public void setRefNo(No refNo) {
         this.refNo = refNo;
     }
-    public void No() {
-        
-    }
-
-    public void No(int dado) {
-        this.dado = dado;
-    }
-
     
-    
-
 }
