@@ -1,21 +1,17 @@
-import java.util.function.Function;
-
-import Pilha.No;
-import Pilha.Pilha;
+import Fila.Fila;
+import Fila.No;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Pilha minhaPilha = new Pilha();
+        Fila minhaFila = new Fila();
         
-        minhaPilha.push(new No(23));
-        minhaPilha.push(new No(33));
-        minhaPilha.push(new No(53));
-        minhaPilha.push(new No(1));
-        minhaPilha.push(new No(44));
-        minhaPilha.push(new No(26));
-        minhaPilha.push(new No(0));
+        minhaFila.enqueue(new No("Primeiro"));
+        minhaFila.enqueue(new No("Segundo"));
+        minhaFila.enqueue(new No("quarto"));
+        minhaFila.enqueue(new No("terceiro"));
+        System.out.println(minhaFila);
 
-        System.out.println(minhaPilha);
+
 
     }
 

@@ -12,7 +12,7 @@ public class Fila {
 
     public void enqueue(No novoNo) {
         novoNo.setRefNo(refNoEntradaFila);
-        refNoEntradaFila = null;
+        refNoEntradaFila = novoNo;
     }
 
     public boolean isEmpty() {
@@ -59,7 +59,7 @@ public class Fila {
         No noAux = refNoEntradaFila;
         if(refNoEntradaFila != null){
             while(true){
-                stringRetorno += "[No{objeto= " + noAux.getObject() + " }] ------> ";
+                stringRetorno += "[No{objeto= " + noAux.getObject() + " }] --> ";
                 
                 if(noAux.getRefNo() != null){
                     noAux = noAux.getRefNo();
