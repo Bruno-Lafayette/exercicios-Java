@@ -1,18 +1,15 @@
-## Getting Started
+## Estrutura de Dados
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um estudo que aborda conceitos sobre Estrutura de Dados oferecido pelo site da Digital Innovation One.
 
-## Folder Structure
+## Conceitos
 
-The workspace contains two folders by default, where:
+- Fila
+- Pilha
+- Listas Encadeadas
+- Listas Duplamente Encadeadas
+- Listas Circulares
+- Árvore
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> Para mais informações sobre o curso, acesse: https://web.dio.me/course/estrutura-de-dados-em-java
